@@ -61,7 +61,7 @@ class Window:
             time.sleep(1)
             self.time -=1
             self.timer_label.config(text=self.time)
-            if self.time == 55:
+            if self.time == 0:
                 self.timer_label.destroy()
                 self.user_input_label.destroy()
                 self.left_text_label.destroy()
